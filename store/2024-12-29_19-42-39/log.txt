@@ -1,6 +1,0 @@
-2024-12-29 19:42:39,768 - INFO - args:Namespace(OS=True, batch_size=128, bias=False, bn=True, cuda=1, dataset='CIFAR10', encoding='real', epochs=200, loss_lambda=0.05, loss_means=1.0, lr=0.1, lr_decay_fact=0.1, lr_decay_milestones=[100, 150], model='CIFAR10_VGG11_BN', momentum=0.9, mse_n_reg=True, neuron_dropout=0.0, optimizer='SGD', print_stats=True, resume=False, save_path='./store/', scheduler='Cosine', seed=1234, surrogate_function='expontential', tau=2, thresh=1.0, time_window=6, weight_decay=0.0001)
-2024-12-29 19:42:39,768 - INFO - saving to:./store/2024-12-29_19-42-39
-2024-12-29 19:43:02,280 - INFO - Train epoch=1, lr=1.00e-01, loss_local=1.6960, accuracy=38.002%, time_avg=0.050, training_samples=50000,mem=114MiB, max_mem=923MiB
-
-2024-12-29 19:43:04,995 - INFO - Test accuracy=47.310%
-
