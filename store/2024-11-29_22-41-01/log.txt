@@ -1,0 +1,803 @@
+2024-11-29 22:41:01,831 - INFO - args:Namespace(FA=False, OS=False, batch_size=128, bias=False, bn=True, cuda=3, dataset='CIFAR10', encoding='real', epochs=200, loss_lambda=0.05, loss_means=1.0, lr=0.0005, lr_decay_fact=0.1, lr_decay_milestones=[100, 150], model='CIFAR10_ResNet_BN', momentum=0.9, mse_n_reg=True, neuron_dropout=0.0, optimizer='Adam', print_stats=True, resume=False, save_path='./store/', scheduler='Linear', seed=1234, surrogate_function='expontential', tau=1.1565176427496657, thresh=1.0, time_window=6, weight_decay=0.0)
+2024-11-29 22:41:01,831 - INFO - saving to:./store/2024-11-29_22-41-01
+2024-11-29 22:42:41,745 - INFO - Train epoch=1, lr=5.00e-04, loss_local=12.1969, accuracy=25.654%, time_avg=0.248, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:42:48,980 - INFO - Test accuracy=29.400%
+
+2024-11-29 22:44:25,105 - INFO - Train epoch=2, lr=5.00e-04, loss_local=11.1629, accuracy=31.408%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:44:32,679 - INFO - Test accuracy=33.780%
+
+2024-11-29 22:46:08,600 - INFO - Train epoch=3, lr=5.00e-04, loss_local=10.3813, accuracy=36.876%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:46:16,159 - INFO - Test accuracy=40.770%
+
+2024-11-29 22:47:51,990 - INFO - Train epoch=4, lr=5.00e-04, loss_local=9.7445, accuracy=41.028%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:47:59,576 - INFO - Test accuracy=44.100%
+
+2024-11-29 22:49:35,334 - INFO - Train epoch=5, lr=5.00e-04, loss_local=9.3077, accuracy=44.008%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:49:42,881 - INFO - Test accuracy=38.650%
+
+2024-11-29 22:51:18,716 - INFO - Train epoch=6, lr=5.00e-04, loss_local=10.7732, accuracy=33.362%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:51:26,277 - INFO - Test accuracy=36.990%
+
+2024-11-29 22:53:02,061 - INFO - Train epoch=7, lr=5.00e-04, loss_local=10.1013, accuracy=38.108%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:53:09,634 - INFO - Test accuracy=37.520%
+
+2024-11-29 22:54:45,199 - INFO - Train epoch=8, lr=5.00e-04, loss_local=9.8208, accuracy=40.290%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:54:52,758 - INFO - Test accuracy=40.670%
+
+2024-11-29 22:56:28,360 - INFO - Train epoch=9, lr=5.00e-04, loss_local=9.6381, accuracy=41.636%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:56:35,911 - INFO - Test accuracy=44.070%
+
+2024-11-29 22:58:11,589 - INFO - Train epoch=10, lr=5.00e-04, loss_local=9.4262, accuracy=43.432%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 22:58:19,182 - INFO - Test accuracy=45.070%
+
+2024-11-29 22:59:55,247 - INFO - Train epoch=11, lr=5.00e-04, loss_local=9.1313, accuracy=45.080%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:00:02,800 - INFO - Test accuracy=45.750%
+
+2024-11-29 23:01:38,493 - INFO - Train epoch=12, lr=5.00e-04, loss_local=8.8511, accuracy=47.234%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:01:46,026 - INFO - Test accuracy=47.900%
+
+2024-11-29 23:03:21,674 - INFO - Train epoch=13, lr=5.00e-04, loss_local=8.7094, accuracy=48.150%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:03:29,236 - INFO - Test accuracy=47.880%
+
+2024-11-29 23:05:05,187 - INFO - Train epoch=14, lr=5.00e-04, loss_local=8.4893, accuracy=49.506%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:05:12,769 - INFO - Test accuracy=50.610%
+
+2024-11-29 23:06:48,539 - INFO - Train epoch=15, lr=5.00e-04, loss_local=8.3209, accuracy=50.966%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:06:56,069 - INFO - Test accuracy=50.850%
+
+2024-11-29 23:08:32,074 - INFO - Train epoch=16, lr=5.00e-04, loss_local=8.2860, accuracy=51.060%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:08:39,624 - INFO - Test accuracy=52.120%
+
+2024-11-29 23:10:15,337 - INFO - Train epoch=17, lr=5.00e-04, loss_local=8.2027, accuracy=51.728%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:10:22,868 - INFO - Test accuracy=51.580%
+
+2024-11-29 23:11:58,738 - INFO - Train epoch=18, lr=5.00e-04, loss_local=8.0729, accuracy=52.764%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:12:06,336 - INFO - Test accuracy=54.890%
+
+2024-11-29 23:13:42,342 - INFO - Train epoch=19, lr=5.00e-04, loss_local=7.8741, accuracy=53.968%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:13:49,913 - INFO - Test accuracy=55.440%
+
+2024-11-29 23:15:25,962 - INFO - Train epoch=20, lr=5.00e-04, loss_local=7.8396, accuracy=54.304%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:15:33,530 - INFO - Test accuracy=54.940%
+
+2024-11-29 23:17:09,269 - INFO - Train epoch=21, lr=5.00e-04, loss_local=7.7979, accuracy=54.802%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:17:16,796 - INFO - Test accuracy=56.130%
+
+2024-11-29 23:18:52,592 - INFO - Train epoch=22, lr=5.00e-04, loss_local=7.5371, accuracy=56.656%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:19:00,192 - INFO - Test accuracy=57.420%
+
+2024-11-29 23:20:36,239 - INFO - Train epoch=23, lr=5.00e-04, loss_local=7.4669, accuracy=56.660%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:20:43,829 - INFO - Test accuracy=57.680%
+
+2024-11-29 23:22:20,026 - INFO - Train epoch=24, lr=5.00e-04, loss_local=7.3611, accuracy=57.698%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:22:27,597 - INFO - Test accuracy=58.460%
+
+2024-11-29 23:24:03,503 - INFO - Train epoch=25, lr=5.00e-04, loss_local=7.3099, accuracy=58.128%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:24:11,135 - INFO - Test accuracy=56.950%
+
+2024-11-29 23:25:47,207 - INFO - Train epoch=26, lr=5.00e-04, loss_local=7.2965, accuracy=58.082%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:25:54,840 - INFO - Test accuracy=59.670%
+
+2024-11-29 23:27:31,280 - INFO - Train epoch=27, lr=5.00e-04, loss_local=7.0016, accuracy=59.958%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:27:38,966 - INFO - Test accuracy=61.590%
+
+2024-11-29 23:29:15,288 - INFO - Train epoch=28, lr=5.00e-04, loss_local=6.8644, accuracy=61.060%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:29:22,872 - INFO - Test accuracy=59.640%
+
+2024-11-29 23:30:58,896 - INFO - Train epoch=29, lr=5.00e-04, loss_local=7.0363, accuracy=60.300%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:31:06,484 - INFO - Test accuracy=58.750%
+
+2024-11-29 23:32:42,255 - INFO - Train epoch=30, lr=5.00e-04, loss_local=7.0866, accuracy=59.780%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:32:49,850 - INFO - Test accuracy=60.350%
+
+2024-11-29 23:34:26,067 - INFO - Train epoch=31, lr=5.00e-04, loss_local=6.9399, accuracy=60.810%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:34:33,697 - INFO - Test accuracy=60.590%
+
+2024-11-29 23:36:09,694 - INFO - Train epoch=32, lr=5.00e-04, loss_local=6.6694, accuracy=62.488%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:36:17,280 - INFO - Test accuracy=61.960%
+
+2024-11-29 23:37:53,683 - INFO - Train epoch=33, lr=5.00e-04, loss_local=6.6407, accuracy=62.862%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:38:01,235 - INFO - Test accuracy=61.210%
+
+2024-11-29 23:39:37,416 - INFO - Train epoch=34, lr=5.00e-04, loss_local=6.6952, accuracy=62.428%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:39:45,148 - INFO - Test accuracy=63.020%
+
+2024-11-29 23:41:21,278 - INFO - Train epoch=35, lr=5.00e-04, loss_local=6.3821, accuracy=64.464%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:41:28,928 - INFO - Test accuracy=62.690%
+
+2024-11-29 23:43:04,601 - INFO - Train epoch=36, lr=5.00e-04, loss_local=6.2879, accuracy=65.222%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:43:12,189 - INFO - Test accuracy=63.560%
+
+2024-11-29 23:44:47,977 - INFO - Train epoch=37, lr=5.00e-04, loss_local=6.1938, accuracy=65.624%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:44:55,580 - INFO - Test accuracy=65.000%
+
+2024-11-29 23:46:31,550 - INFO - Train epoch=38, lr=5.00e-04, loss_local=6.0322, accuracy=66.818%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:46:39,134 - INFO - Test accuracy=65.410%
+
+2024-11-29 23:48:15,048 - INFO - Train epoch=39, lr=5.00e-04, loss_local=6.0080, accuracy=66.492%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:48:22,637 - INFO - Test accuracy=65.300%
+
+2024-11-29 23:49:58,340 - INFO - Train epoch=40, lr=5.00e-04, loss_local=5.9362, accuracy=67.298%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:50:05,917 - INFO - Test accuracy=66.080%
+
+2024-11-29 23:51:41,815 - INFO - Train epoch=41, lr=5.00e-04, loss_local=5.8205, accuracy=67.786%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:51:49,429 - INFO - Test accuracy=65.860%
+
+2024-11-29 23:53:25,258 - INFO - Train epoch=42, lr=5.00e-04, loss_local=5.7939, accuracy=68.174%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:53:32,807 - INFO - Test accuracy=65.280%
+
+2024-11-29 23:55:08,712 - INFO - Train epoch=43, lr=5.00e-04, loss_local=5.7170, accuracy=68.950%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:55:16,351 - INFO - Test accuracy=66.670%
+
+2024-11-29 23:56:52,343 - INFO - Train epoch=44, lr=5.00e-04, loss_local=5.6084, accuracy=69.246%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:56:59,942 - INFO - Test accuracy=66.600%
+
+2024-11-29 23:58:35,720 - INFO - Train epoch=45, lr=5.00e-04, loss_local=5.5216, accuracy=69.914%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-29 23:58:43,688 - INFO - Test accuracy=68.040%
+
+2024-11-30 00:00:19,835 - INFO - Train epoch=46, lr=5.00e-04, loss_local=5.4398, accuracy=70.354%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:00:27,439 - INFO - Test accuracy=69.200%
+
+2024-11-30 00:02:03,413 - INFO - Train epoch=47, lr=5.00e-04, loss_local=5.4151, accuracy=70.678%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:02:11,051 - INFO - Test accuracy=68.840%
+
+2024-11-30 00:03:47,027 - INFO - Train epoch=48, lr=5.00e-04, loss_local=5.3620, accuracy=70.898%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:03:54,612 - INFO - Test accuracy=68.070%
+
+2024-11-30 00:05:30,463 - INFO - Train epoch=49, lr=5.00e-04, loss_local=5.2455, accuracy=71.684%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:05:38,066 - INFO - Test accuracy=68.830%
+
+2024-11-30 00:07:13,847 - INFO - Train epoch=50, lr=5.00e-04, loss_local=5.1582, accuracy=72.082%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:07:21,444 - INFO - Test accuracy=69.740%
+
+2024-11-30 00:08:57,353 - INFO - Train epoch=51, lr=5.00e-04, loss_local=5.0674, accuracy=72.834%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:09:04,955 - INFO - Test accuracy=69.250%
+
+2024-11-30 00:10:40,764 - INFO - Train epoch=52, lr=5.00e-04, loss_local=5.0161, accuracy=73.268%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:10:48,365 - INFO - Test accuracy=70.180%
+
+2024-11-30 00:12:24,240 - INFO - Train epoch=53, lr=5.00e-04, loss_local=5.0633, accuracy=72.680%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:12:31,860 - INFO - Test accuracy=70.660%
+
+2024-11-30 00:14:07,621 - INFO - Train epoch=54, lr=5.00e-04, loss_local=4.9876, accuracy=73.408%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:14:15,239 - INFO - Test accuracy=70.150%
+
+2024-11-30 00:15:51,138 - INFO - Train epoch=55, lr=5.00e-04, loss_local=4.9392, accuracy=73.610%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:15:58,747 - INFO - Test accuracy=71.100%
+
+2024-11-30 00:17:34,649 - INFO - Train epoch=56, lr=5.00e-04, loss_local=4.8675, accuracy=74.192%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:17:42,337 - INFO - Test accuracy=70.550%
+
+2024-11-30 00:19:18,253 - INFO - Train epoch=57, lr=5.00e-04, loss_local=4.9635, accuracy=73.542%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:19:25,915 - INFO - Test accuracy=70.830%
+
+2024-11-30 00:21:01,821 - INFO - Train epoch=58, lr=5.00e-04, loss_local=4.8121, accuracy=74.482%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:21:09,404 - INFO - Test accuracy=71.380%
+
+2024-11-30 00:22:45,360 - INFO - Train epoch=59, lr=5.00e-04, loss_local=4.7096, accuracy=75.100%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:22:52,976 - INFO - Test accuracy=71.480%
+
+2024-11-30 00:24:28,906 - INFO - Train epoch=60, lr=5.00e-04, loss_local=4.5995, accuracy=75.678%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:24:36,544 - INFO - Test accuracy=71.950%
+
+2024-11-30 00:26:12,432 - INFO - Train epoch=61, lr=5.00e-04, loss_local=4.5392, accuracy=75.898%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:26:20,023 - INFO - Test accuracy=71.730%
+
+2024-11-30 00:27:55,992 - INFO - Train epoch=62, lr=5.00e-04, loss_local=4.5176, accuracy=76.084%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:28:03,605 - INFO - Test accuracy=71.960%
+
+2024-11-30 00:29:39,424 - INFO - Train epoch=63, lr=5.00e-04, loss_local=4.4360, accuracy=76.566%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:29:47,069 - INFO - Test accuracy=73.220%
+
+2024-11-30 00:31:22,892 - INFO - Train epoch=64, lr=5.00e-04, loss_local=4.3220, accuracy=77.326%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:31:30,550 - INFO - Test accuracy=73.070%
+
+2024-11-30 00:33:06,371 - INFO - Train epoch=65, lr=5.00e-04, loss_local=4.3946, accuracy=76.916%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:33:14,032 - INFO - Test accuracy=72.190%
+
+2024-11-30 00:34:49,794 - INFO - Train epoch=66, lr=5.00e-04, loss_local=4.2909, accuracy=77.650%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:34:57,448 - INFO - Test accuracy=72.810%
+
+2024-11-30 00:36:33,294 - INFO - Train epoch=67, lr=5.00e-04, loss_local=4.3374, accuracy=77.470%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:36:40,940 - INFO - Test accuracy=73.420%
+
+2024-11-30 00:38:16,815 - INFO - Train epoch=68, lr=5.00e-04, loss_local=4.1880, accuracy=78.292%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:38:24,485 - INFO - Test accuracy=73.390%
+
+2024-11-30 00:40:00,305 - INFO - Train epoch=69, lr=5.00e-04, loss_local=4.1515, accuracy=78.476%, time_avg=0.244, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:40:07,919 - INFO - Test accuracy=72.870%
+
+2024-11-30 00:41:44,060 - INFO - Train epoch=70, lr=5.00e-04, loss_local=4.0107, accuracy=79.272%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:41:51,706 - INFO - Test accuracy=72.350%
+
+2024-11-30 00:43:27,806 - INFO - Train epoch=71, lr=5.00e-04, loss_local=3.9490, accuracy=79.568%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:43:35,454 - INFO - Test accuracy=74.280%
+
+2024-11-30 00:45:11,557 - INFO - Train epoch=72, lr=5.00e-04, loss_local=3.9808, accuracy=79.406%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:45:19,252 - INFO - Test accuracy=74.050%
+
+2024-11-30 00:46:55,315 - INFO - Train epoch=73, lr=5.00e-04, loss_local=3.8693, accuracy=80.048%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:47:02,986 - INFO - Test accuracy=74.280%
+
+2024-11-30 00:48:39,069 - INFO - Train epoch=74, lr=5.00e-04, loss_local=3.8879, accuracy=79.948%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:48:46,729 - INFO - Test accuracy=74.410%
+
+2024-11-30 00:50:23,026 - INFO - Train epoch=75, lr=5.00e-04, loss_local=3.9045, accuracy=80.018%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:50:30,689 - INFO - Test accuracy=73.580%
+
+2024-11-30 00:52:06,815 - INFO - Train epoch=76, lr=5.00e-04, loss_local=3.7628, accuracy=80.614%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:52:14,480 - INFO - Test accuracy=74.860%
+
+2024-11-30 00:53:50,639 - INFO - Train epoch=77, lr=5.00e-04, loss_local=3.7718, accuracy=80.742%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:53:58,296 - INFO - Test accuracy=75.160%
+
+2024-11-30 00:55:34,504 - INFO - Train epoch=78, lr=5.00e-04, loss_local=3.7608, accuracy=80.740%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:55:42,141 - INFO - Test accuracy=75.070%
+
+2024-11-30 00:57:18,300 - INFO - Train epoch=79, lr=5.00e-04, loss_local=3.6420, accuracy=81.538%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:57:25,961 - INFO - Test accuracy=76.150%
+
+2024-11-30 00:59:02,084 - INFO - Train epoch=80, lr=5.00e-04, loss_local=3.5049, accuracy=82.344%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 00:59:09,745 - INFO - Test accuracy=75.810%
+
+2024-11-30 01:00:45,885 - INFO - Train epoch=81, lr=5.00e-04, loss_local=3.5653, accuracy=81.930%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:00:53,524 - INFO - Test accuracy=75.750%
+
+2024-11-30 01:02:30,059 - INFO - Train epoch=82, lr=5.00e-04, loss_local=3.4586, accuracy=82.602%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:02:37,719 - INFO - Test accuracy=75.870%
+
+2024-11-30 01:04:14,103 - INFO - Train epoch=83, lr=5.00e-04, loss_local=3.4414, accuracy=82.736%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:04:21,770 - INFO - Test accuracy=76.740%
+
+2024-11-30 01:05:58,036 - INFO - Train epoch=84, lr=5.00e-04, loss_local=3.4183, accuracy=82.898%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:06:05,689 - INFO - Test accuracy=76.100%
+
+2024-11-30 01:07:41,799 - INFO - Train epoch=85, lr=5.00e-04, loss_local=3.3198, accuracy=83.534%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:07:49,456 - INFO - Test accuracy=76.800%
+
+2024-11-30 01:09:25,621 - INFO - Train epoch=86, lr=5.00e-04, loss_local=3.2733, accuracy=83.714%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:09:33,346 - INFO - Test accuracy=76.530%
+
+2024-11-30 01:11:09,467 - INFO - Train epoch=87, lr=5.00e-04, loss_local=3.2718, accuracy=83.758%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:11:17,155 - INFO - Test accuracy=76.590%
+
+2024-11-30 01:12:53,210 - INFO - Train epoch=88, lr=5.00e-04, loss_local=3.2493, accuracy=83.616%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:13:00,851 - INFO - Test accuracy=76.900%
+
+2024-11-30 01:14:36,995 - INFO - Train epoch=89, lr=5.00e-04, loss_local=3.2178, accuracy=84.014%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:14:44,692 - INFO - Test accuracy=76.520%
+
+2024-11-30 01:16:20,925 - INFO - Train epoch=90, lr=5.00e-04, loss_local=3.1335, accuracy=84.440%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:16:28,632 - INFO - Test accuracy=77.040%
+
+2024-11-30 01:18:04,833 - INFO - Train epoch=91, lr=5.00e-04, loss_local=3.1125, accuracy=84.736%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:18:12,519 - INFO - Test accuracy=76.480%
+
+2024-11-30 01:19:48,677 - INFO - Train epoch=92, lr=5.00e-04, loss_local=3.0824, accuracy=84.942%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:19:56,364 - INFO - Test accuracy=77.050%
+
+2024-11-30 01:21:32,711 - INFO - Train epoch=93, lr=5.00e-04, loss_local=3.0124, accuracy=85.314%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:21:40,408 - INFO - Test accuracy=77.330%
+
+2024-11-30 01:23:16,635 - INFO - Train epoch=94, lr=5.00e-04, loss_local=2.9382, accuracy=85.710%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:23:24,352 - INFO - Test accuracy=77.210%
+
+2024-11-30 01:25:00,533 - INFO - Train epoch=95, lr=5.00e-04, loss_local=2.9234, accuracy=85.738%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:25:08,239 - INFO - Test accuracy=77.590%
+
+2024-11-30 01:26:44,474 - INFO - Train epoch=96, lr=5.00e-04, loss_local=2.8927, accuracy=86.150%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:26:52,188 - INFO - Test accuracy=77.770%
+
+2024-11-30 01:28:28,592 - INFO - Train epoch=97, lr=5.00e-04, loss_local=2.8411, accuracy=86.280%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:28:36,271 - INFO - Test accuracy=77.900%
+
+2024-11-30 01:30:12,553 - INFO - Train epoch=98, lr=5.00e-04, loss_local=2.9137, accuracy=86.000%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:30:20,259 - INFO - Test accuracy=77.390%
+
+2024-11-30 01:31:56,439 - INFO - Train epoch=99, lr=5.00e-04, loss_local=2.7544, accuracy=86.838%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:32:04,173 - INFO - Test accuracy=78.830%
+
+2024-11-30 01:33:40,412 - INFO - Train epoch=100, lr=5.00e-04, loss_local=2.7692, accuracy=86.702%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:33:48,121 - INFO - Test accuracy=78.440%
+
+2024-11-30 01:35:24,384 - INFO - Train epoch=101, lr=5.00e-05, loss_local=2.4561, accuracy=88.784%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:35:32,080 - INFO - Test accuracy=79.110%
+
+2024-11-30 01:37:08,385 - INFO - Train epoch=102, lr=5.00e-05, loss_local=2.3690, accuracy=89.294%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:37:16,071 - INFO - Test accuracy=79.050%
+
+2024-11-30 01:38:52,239 - INFO - Train epoch=103, lr=5.00e-05, loss_local=2.3261, accuracy=89.534%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:38:59,901 - INFO - Test accuracy=79.160%
+
+2024-11-30 01:40:36,149 - INFO - Train epoch=104, lr=5.00e-05, loss_local=2.2965, accuracy=89.656%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:40:43,810 - INFO - Test accuracy=79.610%
+
+2024-11-30 01:42:20,134 - INFO - Train epoch=105, lr=5.00e-05, loss_local=2.2925, accuracy=89.690%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:42:27,865 - INFO - Test accuracy=79.040%
+
+2024-11-30 01:44:04,043 - INFO - Train epoch=106, lr=5.00e-05, loss_local=2.2817, accuracy=89.852%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:44:11,772 - INFO - Test accuracy=78.450%
+
+2024-11-30 01:45:47,907 - INFO - Train epoch=107, lr=5.00e-05, loss_local=2.2808, accuracy=89.956%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:45:55,611 - INFO - Test accuracy=79.460%
+
+2024-11-30 01:47:31,685 - INFO - Train epoch=108, lr=5.00e-05, loss_local=2.2658, accuracy=89.910%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:47:39,425 - INFO - Test accuracy=79.110%
+
+2024-11-30 01:49:15,560 - INFO - Train epoch=109, lr=5.00e-05, loss_local=2.2660, accuracy=90.042%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:49:23,268 - INFO - Test accuracy=79.210%
+
+2024-11-30 01:50:59,348 - INFO - Train epoch=110, lr=5.00e-05, loss_local=2.2238, accuracy=90.168%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:51:07,055 - INFO - Test accuracy=79.480%
+
+2024-11-30 01:52:43,393 - INFO - Train epoch=111, lr=5.00e-05, loss_local=2.2128, accuracy=90.190%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:52:51,052 - INFO - Test accuracy=79.650%
+
+2024-11-30 01:54:27,163 - INFO - Train epoch=112, lr=5.00e-05, loss_local=2.1953, accuracy=90.268%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:54:34,875 - INFO - Test accuracy=79.820%
+
+2024-11-30 01:56:11,034 - INFO - Train epoch=113, lr=5.00e-05, loss_local=2.1806, accuracy=90.478%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:56:18,732 - INFO - Test accuracy=79.670%
+
+2024-11-30 01:57:54,794 - INFO - Train epoch=114, lr=5.00e-05, loss_local=2.1804, accuracy=90.498%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:58:02,536 - INFO - Test accuracy=79.680%
+
+2024-11-30 01:59:38,636 - INFO - Train epoch=115, lr=5.00e-05, loss_local=2.1456, accuracy=90.620%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 01:59:46,364 - INFO - Test accuracy=79.360%
+
+2024-11-30 02:01:22,631 - INFO - Train epoch=116, lr=5.00e-05, loss_local=2.1529, accuracy=90.544%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:01:30,350 - INFO - Test accuracy=79.480%
+
+2024-11-30 02:03:06,609 - INFO - Train epoch=117, lr=5.00e-05, loss_local=2.1393, accuracy=90.694%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:03:14,311 - INFO - Test accuracy=79.790%
+
+2024-11-30 02:04:50,721 - INFO - Train epoch=118, lr=5.00e-05, loss_local=2.1546, accuracy=90.632%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:04:58,434 - INFO - Test accuracy=79.390%
+
+2024-11-30 02:06:34,861 - INFO - Train epoch=119, lr=5.00e-05, loss_local=2.1478, accuracy=90.438%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:06:42,587 - INFO - Test accuracy=79.520%
+
+2024-11-30 02:08:19,006 - INFO - Train epoch=120, lr=5.00e-05, loss_local=2.1147, accuracy=90.802%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:08:26,761 - INFO - Test accuracy=79.420%
+
+2024-11-30 02:10:03,366 - INFO - Train epoch=121, lr=5.00e-05, loss_local=2.1268, accuracy=90.758%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:10:11,079 - INFO - Test accuracy=79.320%
+
+2024-11-30 02:11:47,472 - INFO - Train epoch=122, lr=5.00e-05, loss_local=2.1004, accuracy=91.014%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:11:55,160 - INFO - Test accuracy=79.510%
+
+2024-11-30 02:13:31,608 - INFO - Train epoch=123, lr=5.00e-05, loss_local=2.1370, accuracy=90.670%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:13:39,324 - INFO - Test accuracy=79.280%
+
+2024-11-30 02:15:15,781 - INFO - Train epoch=124, lr=5.00e-05, loss_local=2.1208, accuracy=90.866%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:15:23,483 - INFO - Test accuracy=79.630%
+
+2024-11-30 02:16:59,918 - INFO - Train epoch=125, lr=5.00e-05, loss_local=2.1075, accuracy=90.936%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:17:07,646 - INFO - Test accuracy=79.390%
+
+2024-11-30 02:18:44,052 - INFO - Train epoch=126, lr=5.00e-05, loss_local=2.1018, accuracy=90.942%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:18:51,755 - INFO - Test accuracy=79.720%
+
+2024-11-30 02:20:28,263 - INFO - Train epoch=127, lr=5.00e-05, loss_local=2.0812, accuracy=91.070%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:20:35,975 - INFO - Test accuracy=80.050%
+
+2024-11-30 02:22:12,450 - INFO - Train epoch=128, lr=5.00e-05, loss_local=2.0600, accuracy=91.364%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:22:20,208 - INFO - Test accuracy=79.570%
+
+2024-11-30 02:23:56,633 - INFO - Train epoch=129, lr=5.00e-05, loss_local=2.0766, accuracy=91.114%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:24:04,352 - INFO - Test accuracy=79.100%
+
+2024-11-30 02:25:40,753 - INFO - Train epoch=130, lr=5.00e-05, loss_local=2.0850, accuracy=91.176%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:25:48,490 - INFO - Test accuracy=79.260%
+
+2024-11-30 02:27:24,800 - INFO - Train epoch=131, lr=5.00e-05, loss_local=2.0558, accuracy=91.300%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:27:32,499 - INFO - Test accuracy=79.360%
+
+2024-11-30 02:29:08,982 - INFO - Train epoch=132, lr=5.00e-05, loss_local=2.0469, accuracy=91.382%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:29:16,684 - INFO - Test accuracy=79.690%
+
+2024-11-30 02:30:53,073 - INFO - Train epoch=133, lr=5.00e-05, loss_local=2.0303, accuracy=91.542%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:31:00,814 - INFO - Test accuracy=79.800%
+
+2024-11-30 02:32:37,124 - INFO - Train epoch=134, lr=5.00e-05, loss_local=2.0433, accuracy=91.440%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:32:44,864 - INFO - Test accuracy=79.690%
+
+2024-11-30 02:34:21,180 - INFO - Train epoch=135, lr=5.00e-05, loss_local=2.0179, accuracy=91.584%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:34:28,891 - INFO - Test accuracy=79.770%
+
+2024-11-30 02:36:05,300 - INFO - Train epoch=136, lr=5.00e-05, loss_local=2.0455, accuracy=91.344%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:36:13,021 - INFO - Test accuracy=79.420%
+
+2024-11-30 02:37:49,280 - INFO - Train epoch=137, lr=5.00e-05, loss_local=2.0085, accuracy=91.524%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:37:56,983 - INFO - Test accuracy=79.500%
+
+2024-11-30 02:39:33,345 - INFO - Train epoch=138, lr=5.00e-05, loss_local=1.9801, accuracy=91.718%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:39:41,052 - INFO - Test accuracy=79.270%
+
+2024-11-30 02:41:17,398 - INFO - Train epoch=139, lr=5.00e-05, loss_local=2.0053, accuracy=91.636%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:41:25,145 - INFO - Test accuracy=79.350%
+
+2024-11-30 02:43:01,497 - INFO - Train epoch=140, lr=5.00e-05, loss_local=2.0047, accuracy=91.484%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:43:09,220 - INFO - Test accuracy=79.420%
+
+2024-11-30 02:44:45,558 - INFO - Train epoch=141, lr=5.00e-05, loss_local=1.9836, accuracy=91.648%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:44:53,299 - INFO - Test accuracy=80.400%
+
+2024-11-30 02:46:29,865 - INFO - Train epoch=142, lr=5.00e-05, loss_local=1.9817, accuracy=91.670%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:46:37,612 - INFO - Test accuracy=78.900%
+
+2024-11-30 02:48:14,008 - INFO - Train epoch=143, lr=5.00e-05, loss_local=1.9781, accuracy=91.662%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:48:21,782 - INFO - Test accuracy=79.870%
+
+2024-11-30 02:49:58,361 - INFO - Train epoch=144, lr=5.00e-05, loss_local=1.9637, accuracy=91.888%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:50:06,114 - INFO - Test accuracy=79.650%
+
+2024-11-30 02:51:42,677 - INFO - Train epoch=145, lr=5.00e-05, loss_local=1.9250, accuracy=92.096%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:51:50,423 - INFO - Test accuracy=79.770%
+
+2024-11-30 02:53:27,031 - INFO - Train epoch=146, lr=5.00e-05, loss_local=1.9391, accuracy=92.058%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:53:34,785 - INFO - Test accuracy=79.750%
+
+2024-11-30 02:55:11,274 - INFO - Train epoch=147, lr=5.00e-05, loss_local=1.9580, accuracy=91.880%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:55:19,031 - INFO - Test accuracy=79.550%
+
+2024-11-30 02:56:55,453 - INFO - Train epoch=148, lr=5.00e-05, loss_local=1.9256, accuracy=92.058%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:57:03,169 - INFO - Test accuracy=79.630%
+
+2024-11-30 02:58:39,558 - INFO - Train epoch=149, lr=5.00e-05, loss_local=1.9448, accuracy=91.930%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 02:58:47,305 - INFO - Test accuracy=79.760%
+
+2024-11-30 03:00:23,815 - INFO - Train epoch=150, lr=5.00e-05, loss_local=1.9413, accuracy=91.936%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:00:31,575 - INFO - Test accuracy=79.730%
+
+2024-11-30 03:02:08,011 - INFO - Train epoch=151, lr=5.00e-06, loss_local=1.9011, accuracy=92.280%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:02:15,741 - INFO - Test accuracy=79.640%
+
+2024-11-30 03:03:52,216 - INFO - Train epoch=152, lr=5.00e-06, loss_local=1.9385, accuracy=92.046%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:03:59,948 - INFO - Test accuracy=79.290%
+
+2024-11-30 03:05:36,360 - INFO - Train epoch=153, lr=5.00e-06, loss_local=1.8822, accuracy=92.364%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:05:44,099 - INFO - Test accuracy=79.870%
+
+2024-11-30 03:07:20,503 - INFO - Train epoch=154, lr=5.00e-06, loss_local=1.8893, accuracy=92.320%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:07:28,240 - INFO - Test accuracy=79.530%
+
+2024-11-30 03:09:04,751 - INFO - Train epoch=155, lr=5.00e-06, loss_local=1.8892, accuracy=92.204%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:09:12,483 - INFO - Test accuracy=79.560%
+
+2024-11-30 03:10:48,941 - INFO - Train epoch=156, lr=5.00e-06, loss_local=1.9011, accuracy=92.102%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:10:56,668 - INFO - Test accuracy=79.800%
+
+2024-11-30 03:12:32,960 - INFO - Train epoch=157, lr=5.00e-06, loss_local=1.8846, accuracy=92.338%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:12:40,731 - INFO - Test accuracy=80.200%
+
+2024-11-30 03:14:17,061 - INFO - Train epoch=158, lr=5.00e-06, loss_local=1.8864, accuracy=92.316%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:14:24,803 - INFO - Test accuracy=79.710%
+
+2024-11-30 03:16:01,111 - INFO - Train epoch=159, lr=5.00e-06, loss_local=1.8960, accuracy=92.332%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:16:08,856 - INFO - Test accuracy=79.960%
+
+2024-11-30 03:17:45,351 - INFO - Train epoch=160, lr=5.00e-06, loss_local=1.8756, accuracy=92.290%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:17:53,114 - INFO - Test accuracy=79.930%
+
+2024-11-30 03:19:29,577 - INFO - Train epoch=161, lr=5.00e-06, loss_local=1.8745, accuracy=92.396%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:19:37,358 - INFO - Test accuracy=79.630%
+
+2024-11-30 03:21:13,616 - INFO - Train epoch=162, lr=5.00e-06, loss_local=1.8718, accuracy=92.452%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:21:21,378 - INFO - Test accuracy=79.320%
+
+2024-11-30 03:22:57,790 - INFO - Train epoch=163, lr=5.00e-06, loss_local=1.8872, accuracy=92.332%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:23:05,598 - INFO - Test accuracy=79.730%
+
+2024-11-30 03:24:41,876 - INFO - Train epoch=164, lr=5.00e-06, loss_local=1.8543, accuracy=92.370%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:24:49,642 - INFO - Test accuracy=79.470%
+
+2024-11-30 03:26:26,044 - INFO - Train epoch=165, lr=5.00e-06, loss_local=1.8570, accuracy=92.534%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:26:33,792 - INFO - Test accuracy=79.540%
+
+2024-11-30 03:28:10,281 - INFO - Train epoch=166, lr=5.00e-06, loss_local=1.8713, accuracy=92.436%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:28:18,046 - INFO - Test accuracy=79.680%
+
+2024-11-30 03:29:54,597 - INFO - Train epoch=167, lr=5.00e-06, loss_local=1.8786, accuracy=92.352%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:30:02,388 - INFO - Test accuracy=79.970%
+
+2024-11-30 03:31:38,962 - INFO - Train epoch=168, lr=5.00e-06, loss_local=1.8869, accuracy=92.320%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:31:46,777 - INFO - Test accuracy=80.000%
+
+2024-11-30 03:33:23,365 - INFO - Train epoch=169, lr=5.00e-06, loss_local=1.8780, accuracy=92.506%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:33:31,210 - INFO - Test accuracy=79.010%
+
+2024-11-30 03:35:07,781 - INFO - Train epoch=170, lr=5.00e-06, loss_local=1.8779, accuracy=92.258%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:35:15,556 - INFO - Test accuracy=79.220%
+
+2024-11-30 03:36:52,265 - INFO - Train epoch=171, lr=5.00e-06, loss_local=1.8986, accuracy=92.274%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:37:00,069 - INFO - Test accuracy=79.540%
+
+2024-11-30 03:38:36,517 - INFO - Train epoch=172, lr=5.00e-06, loss_local=1.8651, accuracy=92.342%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:38:44,311 - INFO - Test accuracy=80.080%
+
+2024-11-30 03:40:20,632 - INFO - Train epoch=173, lr=5.00e-06, loss_local=1.8823, accuracy=92.438%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:40:28,400 - INFO - Test accuracy=79.340%
+
+2024-11-30 03:42:04,833 - INFO - Train epoch=174, lr=5.00e-06, loss_local=1.8824, accuracy=92.278%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:42:12,635 - INFO - Test accuracy=79.800%
+
+2024-11-30 03:43:49,124 - INFO - Train epoch=175, lr=5.00e-06, loss_local=1.8676, accuracy=92.362%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:43:56,877 - INFO - Test accuracy=80.000%
+
+2024-11-30 03:45:33,059 - INFO - Train epoch=176, lr=5.00e-06, loss_local=1.8808, accuracy=92.402%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:45:40,835 - INFO - Test accuracy=79.720%
+
+2024-11-30 03:47:17,025 - INFO - Train epoch=177, lr=5.00e-06, loss_local=1.8632, accuracy=92.444%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:47:24,774 - INFO - Test accuracy=79.800%
+
+2024-11-30 03:49:01,102 - INFO - Train epoch=178, lr=5.00e-06, loss_local=1.8633, accuracy=92.496%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:49:08,888 - INFO - Test accuracy=79.320%
+
+2024-11-30 03:50:45,223 - INFO - Train epoch=179, lr=5.00e-06, loss_local=1.8837, accuracy=92.328%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:50:52,979 - INFO - Test accuracy=79.800%
+
+2024-11-30 03:52:29,318 - INFO - Train epoch=180, lr=5.00e-06, loss_local=1.8705, accuracy=92.350%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:52:37,136 - INFO - Test accuracy=79.570%
+
+2024-11-30 03:54:13,453 - INFO - Train epoch=181, lr=5.00e-06, loss_local=1.8926, accuracy=92.382%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:54:21,267 - INFO - Test accuracy=79.910%
+
+2024-11-30 03:55:57,630 - INFO - Train epoch=182, lr=5.00e-06, loss_local=1.8816, accuracy=92.320%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:56:05,436 - INFO - Test accuracy=79.860%
+
+2024-11-30 03:57:41,909 - INFO - Train epoch=183, lr=5.00e-06, loss_local=1.8782, accuracy=92.514%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:57:49,709 - INFO - Test accuracy=79.620%
+
+2024-11-30 03:59:26,026 - INFO - Train epoch=184, lr=5.00e-06, loss_local=1.8663, accuracy=92.506%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 03:59:33,816 - INFO - Test accuracy=79.680%
+
+2024-11-30 04:01:10,149 - INFO - Train epoch=185, lr=5.00e-06, loss_local=1.8565, accuracy=92.506%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:01:17,938 - INFO - Test accuracy=79.560%
+
+2024-11-30 04:02:54,262 - INFO - Train epoch=186, lr=5.00e-06, loss_local=1.8502, accuracy=92.602%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:03:02,079 - INFO - Test accuracy=80.000%
+
+2024-11-30 04:04:38,581 - INFO - Train epoch=187, lr=5.00e-06, loss_local=1.8699, accuracy=92.438%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:04:46,367 - INFO - Test accuracy=80.020%
+
+2024-11-30 04:06:22,719 - INFO - Train epoch=188, lr=5.00e-06, loss_local=1.8773, accuracy=92.358%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:06:30,476 - INFO - Test accuracy=79.550%
+
+2024-11-30 04:08:06,770 - INFO - Train epoch=189, lr=5.00e-06, loss_local=1.8606, accuracy=92.586%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:08:14,583 - INFO - Test accuracy=79.460%
+
+2024-11-30 04:09:50,883 - INFO - Train epoch=190, lr=5.00e-06, loss_local=1.8687, accuracy=92.422%, time_avg=0.245, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:09:58,656 - INFO - Test accuracy=79.730%
+
+2024-11-30 04:11:35,057 - INFO - Train epoch=191, lr=5.00e-06, loss_local=1.8583, accuracy=92.468%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:11:42,919 - INFO - Test accuracy=79.970%
+
+2024-11-30 04:13:19,476 - INFO - Train epoch=192, lr=5.00e-06, loss_local=1.8634, accuracy=92.498%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:13:27,290 - INFO - Test accuracy=80.130%
+
+2024-11-30 04:15:04,097 - INFO - Train epoch=193, lr=5.00e-06, loss_local=1.8521, accuracy=92.508%, time_avg=0.247, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:15:11,914 - INFO - Test accuracy=79.740%
+
+2024-11-30 04:16:48,539 - INFO - Train epoch=194, lr=5.00e-06, loss_local=1.8691, accuracy=92.552%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:16:56,343 - INFO - Test accuracy=79.720%
+
+2024-11-30 04:18:32,826 - INFO - Train epoch=195, lr=5.00e-06, loss_local=1.8659, accuracy=92.434%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:18:40,635 - INFO - Test accuracy=79.730%
+
+2024-11-30 04:20:17,009 - INFO - Train epoch=196, lr=5.00e-06, loss_local=1.8493, accuracy=92.512%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:20:24,833 - INFO - Test accuracy=79.780%
+
+2024-11-30 04:22:01,241 - INFO - Train epoch=197, lr=5.00e-06, loss_local=1.8649, accuracy=92.444%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:22:09,062 - INFO - Test accuracy=79.780%
+
+2024-11-30 04:23:45,549 - INFO - Train epoch=198, lr=5.00e-06, loss_local=1.8678, accuracy=92.512%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:23:53,330 - INFO - Test accuracy=79.650%
+
+2024-11-30 04:25:29,806 - INFO - Train epoch=199, lr=5.00e-06, loss_local=1.8735, accuracy=92.338%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:25:37,604 - INFO - Test accuracy=79.610%
+
+2024-11-30 04:27:14,112 - INFO - Train epoch=200, lr=5.00e-06, loss_local=1.8473, accuracy=92.666%, time_avg=0.246, training_samples=50000,mem=185MiB, max_mem=1528MiB
+
+2024-11-30 04:27:21,913 - INFO - Test accuracy=79.670%
+
+2024-11-30 04:27:22,078 - INFO - best acc :80.4
